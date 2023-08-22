@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blob {
+    width: 30rem;
+    height: 30rem;
+    margin: 10% auto;
+    background-image: url("../image/bg.jpg");
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    animation: radiuaAnimation 10s ease-in-out infinite;
+    animation-delay: 500ms
+}
+
+@keyframes radiuaAnimation {
+    0% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        background-image: url("../image/bg.jpg");
+
+    }
+
+    7% {
+        border-radius: 43% 57% 75% 25% / 23% 39% 61% 77%;
+    }
+
+    15% {
+        border-radius: 59% 41% 75% 25% / 23% 67% 33% 77%;
+    }
+
+    30% {
+        border-radius: 59% 41% 75% 25% / 23% 67% 33% 77%;
+        background-image: url("../image/me.JPG");
+
+    }
+
+    40% {
+        border-radius: 84% 16% 46% 54% / 23% 100% 0% 77%;
+    }
+
+    55% {
+        border-radius: 59% 41% 18% 82% / 23% 100% 0% 77%;
+    }
+
+    70% {
+        background-image: url("../image/bb.JPG");
+        background-size: cover;
+        border-radius: 43% 57% 18% 82% / 23% 69% 31% 77%;
+    }
+
+    85% {
+        border-radius: 43% 57% 18% 82% / 23% 34% 66% 77%;
+    }
+
+    95% {
+        border-radius: 40% 60% 36% 64% / 87% 26% 74% 13%;
+    }
+
+    100% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+
+
+}
